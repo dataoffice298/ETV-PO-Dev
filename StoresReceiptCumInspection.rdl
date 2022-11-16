@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>c184f86d-9d53-4d0e-9209-a69d9f6fc45d</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+      <Fields>
+        <Field Name="CompanyInfoName">
+          <DataField>CompanyInfoName</DataField>
+        </Field>
+        <Field Name="CompanyInfoAddress">
+          <DataField>CompanyInfoAddress</DataField>
+        </Field>
+        <Field Name="CompanyInfoAddress2">
+          <DataField>CompanyInfoAddress2</DataField>
+        </Field>
+        <Field Name="StoresReceiptCapLbl">
+          <DataField>StoresReceiptCapLbl</DataField>
+        </Field>
+        <Field Name="TechnicalStoresCapLbl">
+          <DataField>TechnicalStoresCapLbl</DataField>
+        </Field>
+        <Field Name="SupplierNameCapLbl">
+          <DataField>SupplierNameCapLbl</DataField>
+        </Field>
+        <Field Name="DCNoCapLbl">
+          <DataField>DCNoCapLbl</DataField>
+        </Field>
+        <Field Name="InvNoCapLbl">
+          <DataField>InvNoCapLbl</DataField>
+        </Field>
+        <Field Name="ReceiptDateCapLbl">
+          <DataField>ReceiptDateCapLbl</DataField>
+        </Field>
+        <Field Name="IndentNoCapLbl">
+          <DataField>IndentNoCapLbl</DataField>
+        </Field>
+        <Field Name="PONoCapLbl">
+          <DataField>PONoCapLbl</DataField>
+        </Field>
+        <Field Name="DCDateCapLbl">
+          <DataField>DCDateCapLbl</DataField>
+        </Field>
+        <Field Name="InvDateCapLbl">
+          <DataField>InvDateCapLbl</DataField>
+        </Field>
+        <Field Name="IndentDateCapLbl">
+          <DataField>IndentDateCapLbl</DataField>
+        </Field>
+        <Field Name="POReqNoCapLbl">
+          <DataField>POReqNoCapLbl</DataField>
+        </Field>
+        <Field Name="InwardNoCapLbl">
+          <DataField>InwardNoCapLbl</DataField>
+        </Field>
+        <Field Name="GrnNoCapLbl">
+          <DataField>GrnNoCapLbl</DataField>
+        </Field>
+        <Field Name="SpotCapLbl">
+          <DataField>SpotCapLbl</DataField>
+        </Field>
+        <Field Name="IndentorNameCapLbl">
+          <DataField>IndentorNameCapLbl</DataField>
+        </Field>
+        <Field Name="InwardDateCapLbl">
+          <DataField>InwardDateCapLbl</DataField>
+        </Field>
+        <Field Name="GRNDateCapLbl">
+          <DataField>GRNDateCapLbl</DataField>
+        </Field>
+        <Field Name="ReferenceNoCapLbl">
+          <DataField>ReferenceNoCapLbl</DataField>
+        </Field>
+        <Field Name="PurposeCapLbl">
+          <DataField>PurposeCapLbl</DataField>
+        </Field>
+        <Field Name="SNoCapLbl">
+          <DataField>SNoCapLbl</DataField>
+        </Field>
+        <Field Name="CategoryCapLbl">
+          <DataField>CategoryCapLbl</DataField>
+        </Field>
+        <Field Name="SubCategoryCapLbl">
+          <DataField>SubCategoryCapLbl</DataField>
+        </Field>
+        <Field Name="ItemNameCapLbl">
+          <DataField>ItemNameCapLbl</DataField>
+        </Field>
+        <Field Name="MakeCapLbl">
+          <DataField>MakeCapLbl</DataField>
+        </Field>
+        <Field Name="UOMCapLbl">
+          <DataField>UOMCapLbl</DataField>
+        </Field>
+        <Field Name="ChallanQtyCapLbl">
+          <DataField>ChallanQtyCapLbl</DataField>
+        </Field>
+        <Field Name="ReceivedQtyCapLbl">
+          <DataField>ReceivedQtyCapLbl</DataField>
+        </Field>
+        <Field Name="AcceptedQtyCapLbl">
+          <DataField>AcceptedQtyCapLbl</DataField>
+        </Field>
+        <Field Name="RejectedQtyCapLbl">
+          <DataField>RejectedQtyCapLbl</DataField>
+        </Field>
+        <Field Name="RateCapLbl">
+          <DataField>RateCapLbl</DataField>
+        </Field>
+        <Field Name="BasicAmtCapLbl">
+          <DataField>BasicAmtCapLbl</DataField>
+        </Field>
+        <Field Name="DiscountCapLbl">
+          <DataField>DiscountCapLbl</DataField>
+        </Field>
+        <Field Name="SGSTCapLbl">
+          <DataField>SGSTCapLbl</DataField>
+        </Field>
+        <Field Name="CGSTCapLbl">
+          <DataField>CGSTCapLbl</DataField>
+        </Field>
+        <Field Name="TotamtCapLbl">
+          <DataField>TotamtCapLbl</DataField>
+        </Field>
+        <Field Name="TotalAmountCapLbl">
+          <DataField>TotalAmountCapLbl</DataField>
+        </Field>
+        <Field Name="Discount2CapLbl">
+          <DataField>Discount2CapLbl</DataField>
+        </Field>
+        <Field Name="TaxCapLbl">
+          <DataField>TaxCapLbl</DataField>
+        </Field>
+        <Field Name="FrgtChargesCapLbl">
+          <DataField>FrgtChargesCapLbl</DataField>
+        </Field>
+        <Field Name="OtherchargesCapLbl">
+          <DataField>OtherchargesCapLbl</DataField>
+        </Field>
+        <Field Name="InsuranceCapLbl">
+          <DataField>InsuranceCapLbl</DataField>
+        </Field>
+        <Field Name="NetAmtCapLbl">
+          <DataField>NetAmtCapLbl</DataField>
+        </Field>
+        <Field Name="RupeesCapLbl">
+          <DataField>RupeesCapLbl</DataField>
+        </Field>
+        <Field Name="EnteredbyCapLbl">
+          <DataField>EnteredbyCapLbl</DataField>
+        </Field>
+        <Field Name="SectioninChargeCapLbl">
+          <DataField>SectioninChargeCapLbl</DataField>
+        </Field>
+        <Field Name="StoresinChargeCapLbl">
+          <DataField>StoresinChargeCapLbl</DataField>
+        </Field>
+        <Field Name="PurchDeptCapLbl">
+          <DataField>PurchDeptCapLbl</DataField>
+        </Field>
+        <Field Name="AccountsDeptCapLbl">
+          <DataField>AccountsDeptCapLbl</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>3.63542in</Height>
+        <Style />
+      </Body>
+      <Width>10.27083in</Width>
+      <Page>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <ReportParametersLayout>
+    <GridLayoutDefinition>
+      <NumberOfColumns>4</NumberOfColumns>
+      <NumberOfRows>2</NumberOfRows>
+    </GridLayoutDefinition>
+  </ReportParametersLayout>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+</Report>
